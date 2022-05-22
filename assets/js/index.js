@@ -61,3 +61,7 @@ const renderAvatar = (user) => {
         $(".text-avatar").html(firstName);
     }
 };
+
+function chang(){
+    $("#art_list").addClass("layui-this").next().removeClass('layui-this');
+}
